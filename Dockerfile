@@ -10,4 +10,4 @@ VOLUME /notebook
 WORKDIR /notebook
 EXPOSE 8888
 CMD source activate keras \
-  && jupyter notebook --no-browser --ip=0.0.0.0
+  && jupyter notebook
