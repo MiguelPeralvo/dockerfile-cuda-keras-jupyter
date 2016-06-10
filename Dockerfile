@@ -9,5 +9,3 @@ RUN source activate keras \
 VOLUME /notebook
 WORKDIR /notebook
 EXPOSE 8888
-CMD source activate keras \
-  && jupyter notebook
